@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the dissertation and the software below."
+title: "Foundation Models for Fetal Congenital Heart Disease Detection"
+authors:
+  - family-names: "Singh"
+    given-names: "Abhivir"
+version: "1.0-dissertation"
+date-released: "2026-06-11"
+license: MIT
+repository-code: "https://github.com/abhivir-42/foundation-models-for-fetal-CHD-detection"
+references:
+  - type: thesis
+    title: "Foundation Models for Fetal Congenital Heart Disease Detection"
+    authors:
+      - family-names: "Singh"
+        given-names: "Abhivir"
+    thesis-type: "MEng dissertation"
+    institution:
+      name: "Imperial College London, Department of Computing"
+    year: 2026

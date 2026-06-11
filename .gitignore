@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Cached embeddings and model artifacts (never commit; restricted-data-derived)
+*.pkl
+*.ckpt
+*.pt
+embeddings/
+
+# Raw data (restricted; never commit)
+data/
+
+# Experiment outputs
+results/
+figures/out/
