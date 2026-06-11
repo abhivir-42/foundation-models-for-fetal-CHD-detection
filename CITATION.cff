@@ -10,7 +10,7 @@ license: MIT
 repository-code: "https://github.com/abhivir-42/foundation-models-for-fetal-CHD-detection"
 references:
   - type: thesis
-    title: "Foundation Models for Fetal Congenital Heart Disease Detection"
+    title: "Probing Foundation-Model Embeddings for Fetal Congenital Heart Disease Detection: A Controlled Evaluation of Discrimination and Clinical Utility"
     authors:
       - family-names: "Singh"
         given-names: "Abhivir"

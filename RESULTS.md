@@ -14,8 +14,9 @@ confidence intervals appears in the dissertation (`report/report.pdf`).
 | Auditable-four | DINOv2 ViT-B/14 + linear probe (E2) | 0.818 +/- 0.022 | `figures/make_roc_discrimination.py` (needs labels) |
 | All-nine | DINOv2 ViT-B/14 + linear probe (E2) | 0.797 | `scripts/reproduce.py`, `predictions/dinov2_vitb/` |
 
-The backbone-swap discrimination gap (FetalCLIP transformer minus DINOv2 linear
-probe, auditable-four) is +0.093.
+Holding the head fixed and swapping only the backbone, the domain backbone lifts
+auditable-four discrimination by +0.086 (DINOv2 transformer 0.825 to FetalCLIP
+transformer 0.911); see the scale-matched comparison below.
 
 ## Sensitivity at fixed specificity
 

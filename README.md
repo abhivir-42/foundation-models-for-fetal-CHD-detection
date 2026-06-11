@@ -64,3 +64,10 @@ The pipeline is built around three independent extension seams:
 Code is released under the MIT License (see `LICENSE`); the iFIND imaging data is
 **not** included and is governed separately (see `DATA.md`). Please cite the
 dissertation and this repository as described in `CITATION.cff`.
+
+## Acknowledgements
+
+This work was carried out as an MEng final-year dissertation in the Department of
+Computing, Imperial College London, supervised by Professor Bernhard Kainz, with
+guidance from Matt Baugh, and uses data from the iFIND research programme. Full
+acknowledgements are in the dissertation.
