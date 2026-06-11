@@ -56,11 +56,22 @@ This recomputes, per backbone and head, the all-nine AUROC (per fold and the
 values in `RESULTS.md` (for example FetalCLIP transformer all-nine AUROC
 0.8906 +/- 0.0185).
 
-The figures in `figures/` that depend only on the all-nine predictions
-(for example the score-distribution error analysis) regenerate from the committed
-CSVs. The auditable-four, per-condition, and decision-curve figures additionally
-need the restricted condition labels (Section 5) because their task slicings use
-the individual condition columns.
+To regenerate the prediction-based figures, first materialise the per-fold
+`results.json` files (the format the figure scripts read) from the committed
+CSVs, then run a figure:
+
+```bash
+export RESULTS_DIR=$(pwd)/results
+export FIGURES_OUT=$(pwd)/figures/out
+python scripts/reproduce.py --emit-results-json
+python figures/make_error_analysis.py     # all-nine, predictions-only
+```
+
+The figures that depend only on the all-nine predictions (for example the
+score-distribution error analysis) regenerate this way without any raw data.
+The auditable-four, per-condition, and decision-curve figures additionally need
+the restricted condition labels (Section 5), because their task slicings use the
+individual condition columns; point `IFIND_DATA` at the label file to run those.
 
 ## 4. Reproduce from scratch (requires iFIND + GPU)
 
