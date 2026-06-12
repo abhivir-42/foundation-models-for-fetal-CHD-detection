@@ -3,7 +3,7 @@
 All numbers below use the canonical estimand: the per-fold metric under the
 subject-disjoint five-fold split, reported as the mean over folds (with SD where
 shown). Numbers labelled otherwise are explicitly noted. The full set with
-confidence intervals appears in the dissertation (`report/report.pdf`).
+confidence intervals appears in the dissertation.
 
 ## Discrimination
 

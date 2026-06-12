@@ -34,7 +34,6 @@ restricted iFIND corpus.
 | `figures/` | Scripts that regenerate the report figures from the committed predictions (and, where noted, the restricted labels). |
 | `predictions/` | Per-fold test predictions for the two report heads on each backbone, as CSVs. These drive `scripts/reproduce.py` and the figures without the raw data. |
 | `scripts/` | `reproduce.py`: recompute headline numbers from the committed predictions. |
-| `report/` | The dissertation PDF. |
 | `requirements.txt`, `.python-version` | Pinned environment. |
 | `DATA.md`, `RESULTS.md`, `REPRODUCE.md` | Data governance, headline results, and reproduction guide. |
 
@@ -54,10 +53,6 @@ The pipeline is built around three independent extension seams:
    (`src/eval/per_condition.py`) define the binary, auditable-four, and
    per-condition tasks; a new target (a different condition grouping, or a held-out
    anomaly) is a new slicing function over the same predictions.
-
-
-
-
 
 ## License and citation
 
