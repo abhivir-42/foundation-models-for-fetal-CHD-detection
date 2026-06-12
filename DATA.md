@@ -7,9 +7,10 @@ included in this repository.
 
 The study uses anonymised second-trimester fetal cardiac ultrasound video from
 the iFIND research programme at Imperial College London. The corpus is governed
-by the iFIND data-sharing agreement and is **not redistributable**. Access
-requests should be directed to the iFIND principal investigators at Imperial
-College London.
+by the iFIND data-sharing agreement and is **not redistributable**. If you
+would like to reproduce this work from the raw data, email me at
+**as9422@ic.ac.uk** — the corpus is not mine to distribute, but I will gladly
+forward your request to the iFIND data custodians at Imperial College London.
 
 What this repository ships instead, so that results remain reproducible without
 the raw data:
@@ -18,6 +19,11 @@ the raw data:
   granularity with no identifying information;
 - all code to extract embeddings, train heads, and evaluate, should an
   authorised user obtain the corpus.
+
+In practice: anyone can reproduce every reported number, figure, and table
+from the committed predictions (`python scripts/reproduce.py`) — no data access
+required. Only re-running the pipeline from raw video needs the corpus and the
+embeddings derived from it, neither of which is included for the reasons above.
 
 ## Cohort and label schema
 

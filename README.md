@@ -36,6 +36,7 @@ restricted iFIND corpus.
 | `scripts/` | `reproduce.py`: recompute headline numbers from the committed predictions. |
 | `requirements.txt`, `.python-version` | Pinned environment. |
 | `DATA.md`, `RESULTS.md`, `REPRODUCE.md` | Data governance, headline results, and reproduction guide. |
+| `dissertation.pdf` | The full dissertation this repository accompanies. |
 
 ## For collaborators and future students
 
@@ -65,4 +66,4 @@ dissertation and this repository as described in `CITATION.cff`.
 This work was carried out as an MEng final-year dissertation in the Department of
 Computing, Imperial College London, supervised by Professor Bernhard Kainz, with
 guidance from Matt Baugh, and uses data from the iFIND research programme. Full
-acknowledgements are in the dissertation.
+acknowledgements are in the dissertation (`dissertation.pdf`, included here).
